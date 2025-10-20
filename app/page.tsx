@@ -3,6 +3,7 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import LoadingScreen from '@/app/components/LoadingScreen';
 
 export default function Home() {
   const slides: string[] = [
@@ -26,6 +27,7 @@ export default function Home() {
 
   return (
     <main>
+      {/*<LoadingScreen />*/}
       <section className="relative h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden">
         <div className="slides h-full relative">
           {slides.map((slide, index) => (
@@ -72,7 +74,7 @@ export default function Home() {
               <span className="text-gray-900">Home</span>
             </h2>
             <p className="text-red-500 font-medium text-lg sm:text-xl mb-4">คุณภาพและจุดประสงค์</p>
-            <p className="text-gray-600 text-base sm:text-lg">เรามุ่งมั่นให้บริการกระจกและอะลูมิเนียมคุณภาพสูง เพื่อตอบโจทย์ทุกความต้องการ</p>
+            <p className="text-gray-600 text-base sm:text-lg">กระจกคุณภาพดี ติดตั้งโดยช่างและทีมงานมืออาชีพ เรามุ่งมั่นให้บริการกระจกและอะลูมิเนียมคุณภาพสูง เพื่อตอบโจทย์ทุกความต้องการของลูกค้าทุกท่านได้อย่างเหมาะสมด้วยราคาที่สบายกระเป๋า</p>
           </div>
         </div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">

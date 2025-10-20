@@ -4,7 +4,8 @@
 import { useEffect } from 'react';
 import type { ReactNode } from 'react';
 import Header from './components/Header';
-import Footer from './components/Footer';
+import Footer from './components/Footer'
+import LoadingScreen from '@/app/components/LoadingScreen';
 import './globals.css';
 
 export default function RootLayout({ children }: { children: ReactNode }) {

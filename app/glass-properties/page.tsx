@@ -1,9 +1,12 @@
 // app/glass-properties/page.tsx
+'use client';
+import LoadingScreen from '@/app/components/LoadingScreen';
 import Image from 'next/image';
 
 export default function GlassProperties() {
   return (
     <main>
+      {/*<LoadingScreen />*/}
       <section className="py-12 sm:py-16 md:py-20 bg-white rounded-lg shadow-sm mt-6 sm:mt-8 mx-4 sm:mx-6 lg:mx-auto max-w-6xl">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl md:text-4xl text-red-500 font-bold text-center mb-8 sm:mb-12">คุณสมบัติของกระจก</h2>

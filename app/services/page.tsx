@@ -1,6 +1,10 @@
+'use client';
+import LoadingScreen from '@/app/components/LoadingScreen';
+
 export default function Services() {
   return (
     <main className="flex flex-col min-h-screen">
+      {/*<LoadingScreen />*/}
       <section className="py-34 sm:py-48 md:py-62 bg-gradient-to-b from-gray-50 to-white rounded-2xl shadow-xl mx-auto w-full max-w-[90vw] mt-8 sm:mt-12">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl md:text-4xl text-black font-bold text-center mb-8 sm:mb-12">Services</h2>

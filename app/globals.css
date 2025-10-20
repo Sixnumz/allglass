@@ -17,7 +17,6 @@ body {
   color: var(--foreground);
   font-family: 'Kanit', sans-serif;
 }
-
 @import '@fortawesome/fontawesome-free/css/all.min.css';
 @import 'aos/dist/aos.css';
 

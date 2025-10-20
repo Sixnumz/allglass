@@ -1,6 +1,6 @@
 // app/portfolio/page.tsx
 'use client';
-
+import LoadingScreen from '@/app/components/LoadingScreen';
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -13,6 +13,7 @@ export default function Portfolio() {
 
   return (
     <main>
+      {/*<LoadingScreen />*/}
       <section className="py-16 sm:py-20 bg-white rounded-lg shadow-sm mt-8 mx-4 sm:mx-6 lg:mx-auto max-w-6xl">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 text-center mb-8 sm:mb-12">PORTFOLIO</h2>
